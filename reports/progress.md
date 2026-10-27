@@ -10,3 +10,7 @@
 ## 2026-10-28 04:41:59 +07
 
 เริ่มจัดทำ MVP specification draft สำหรับ customer journey ของ MCP_SEO_COPILOT, MCP_AI_KNOWLES และ MCP_SERVICE_AUTOMATION; ระบุสมมติฐานที่ต้อง validate และคง human approval ก่อน side effects
+
+## 2026-10-28 04:45:02 +07
+
+เลือก Python MCP SDK mcp 2.3.0 สำหรับ prototype หลังยืนยัน official SDK รองรับ Python 3.11+ และ Streamable HTTP; เริ่มพัฒนา Service Automation tools แบบ draft/read-only พร้อม unit tests ไม่แตะ DB หรือส่งข้อความจริง
