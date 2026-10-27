@@ -18,3 +18,7 @@
 ## 2026-10-28 04:47:55 +07
 
 MCP_SERVICE_AUTOMATION prototype เพิ่ม quote_generator, follow_up_reminder และ job_report_summarizer แบบ draft/read-only; unit tests ผ่าน 8 รายการจาก project root; กำลังติดตั้ง mcp==2.3.0 ใน .venv เพื่อทดสอบ SDK
+
+## 2026-10-28 04:58:13 +07
+
+Prototype MCP_SERVICE_AUTOMATION เสร็จรอบแรก: quote_generator, follow_up_reminder, job_report_summarizer; official mcp 2.3.0/Streamable HTTP, loopback-only; MCP client end-to-end ผ่าน, unit tests 10/10 และ compile ผ่าน; ไม่มี DB/API/customer side effects; docs สะท้อนสถานะ prototype
