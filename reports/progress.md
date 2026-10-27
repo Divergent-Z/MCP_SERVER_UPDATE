@@ -6,3 +6,7 @@
 ## 2026-10-28 03:20:35 +07
 
 วางแผน MCP Suite: เลือกผู้รับเหมาปรับปรุงบ้าน/ช่างบริการเป็น niche สมมติฐานจากข้อมูล สสว. พร้อมข้อจำกัด เพิ่มบทบาทสาม MCP ใน customer journey และ KPI 90 วัน; README, PLAN, AGENTS และ skills ผ่าน diagnostics
+
+## 2026-10-28 04:41:59 +07
+
+เริ่มจัดทำ MVP specification draft สำหรับ customer journey ของ MCP_SEO_COPILOT, MCP_AI_KNOWLES และ MCP_SERVICE_AUTOMATION; ระบุสมมติฐานที่ต้อง validate และคง human approval ก่อน side effects
