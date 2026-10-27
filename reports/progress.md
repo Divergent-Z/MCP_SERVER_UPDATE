@@ -14,3 +14,7 @@
 ## 2026-10-28 04:45:02 +07
 
 เลือก Python MCP SDK mcp 2.3.0 สำหรับ prototype หลังยืนยัน official SDK รองรับ Python 3.11+ และ Streamable HTTP; เริ่มพัฒนา Service Automation tools แบบ draft/read-only พร้อม unit tests ไม่แตะ DB หรือส่งข้อความจริง
+
+## 2026-10-28 04:47:55 +07
+
+MCP_SERVICE_AUTOMATION prototype เพิ่ม quote_generator, follow_up_reminder และ job_report_summarizer แบบ draft/read-only; unit tests ผ่าน 8 รายการจาก project root; กำลังติดตั้ง mcp==2.3.0 ใน .venv เพื่อทดสอบ SDK
