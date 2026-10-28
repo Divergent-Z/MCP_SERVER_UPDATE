@@ -50,3 +50,7 @@ MCP_WEB_UI app และ bearer-protected gateway สร้างแล้ว; U
 ## 2026-10-28 14:17:38 +07
 
 ดำเนินการต่อ local Docker smoke test ของ MCP Suite UI/Coolify image; ยืนยัน container mcp-suite-ui-smoke bind เฉพาะ 127.0.0.1:18088; health route จริงคือ /healthz (ก่อนหน้าทดสอบผิด path /health)
+
+## 2026-10-28 14:43:07 +07
+
+Docker smoke test ของ MCP Suite UI ผ่าน: /healthz, /api/status, UI และ downloads ตอบ 200; /mcp ไม่มี bearer token ถูก 401; container bind เฉพาะ 127.0.0.1 และ cleanup แล้ว; UI tests 7/7 ผ่าน ยังไม่ได้ deploy Coolify เพราะต้องกำหนด LAN hostname/HTTPS และ bearer secret
