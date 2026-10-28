@@ -42,3 +42,7 @@ Prototype ทั้งสาม MCP พร้อม local stdio configs สำ�
 ## 2026-10-28 12:55:16 +07
 
 สร้าง remote_mcp_client.py และ REMOTE_TESTING.md สำหรับทดสอบจากอีกเครื่องผ่าน SSH local port-forward; remote CLI ทดสอบ HTTP list tools/prompts และ call SEO/Service/AI prompt ผ่าน, tests 6/6; ports 8001-8003 ปิดแล้ว, MCP servers ยัง bind loopback และไม่มี HTTP auth
+
+## 2026-10-28 13:41:16 +07
+
+MCP_WEB_UI app และ bearer-protected gateway สร้างแล้ว; UI/assets/download/status routes ทำงาน, MCP ไม่มี token ได้ 401, token-valid request ผ่านเข้าชั้น MCP, Host ไม่ allow ถูกปฏิเสธ; กำลังเตรียม Coolify deployment docs/build
