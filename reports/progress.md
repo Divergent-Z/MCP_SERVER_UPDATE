@@ -38,3 +38,7 @@ Prototype ทั้งสาม MCP พร้อม local stdio configs สำ�
 ## 2026-10-28 12:30:49 +07
 
 เริ่มทำ remote MCP test client สำหรับทดสอบจากอีกเครื่อง ใช้ Streamable HTTP ผ่าน SSH local port-forward เพื่อคง server bind ที่ 127.0.0.1; client จะแสดง tools/prompts และเรียก tool ได้ โดยไม่ต้องเปิด MCP สาธารณะ
+
+## 2026-10-28 12:55:16 +07
+
+สร้าง remote_mcp_client.py และ REMOTE_TESTING.md สำหรับทดสอบจากอีกเครื่องผ่าน SSH local port-forward; remote CLI ทดสอบ HTTP list tools/prompts และ call SEO/Service/AI prompt ผ่าน, tests 6/6; ports 8001-8003 ปิดแล้ว, MCP servers ยัง bind loopback และไม่มี HTTP auth
