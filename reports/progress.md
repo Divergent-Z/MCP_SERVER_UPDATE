@@ -34,3 +34,7 @@ Service Automation รองรับ MCP_TRANSPORT=stdio สำหรับ loc
 ## 2026-10-28 12:20:33 +07
 
 Prototype ทั้งสาม MCP พร้อม local stdio configs สำหรับ Claude Desktop/Code, Cursor และ OpenCode; tools/prompts discover ผ่านครบ 12 server launches; tests ผ่าน AI Knowles 5, SEO Copilot 5, Service Automation 10, Python compile/diagnostics ผ่าน ยังไม่มี live LLM/ad/CRM/DB connectors หรือ customer validation
+
+## 2026-10-28 12:30:49 +07
+
+เริ่มทำ remote MCP test client สำหรับทดสอบจากอีกเครื่อง ใช้ Streamable HTTP ผ่าน SSH local port-forward เพื่อคง server bind ที่ 127.0.0.1; client จะแสดง tools/prompts และเรียก tool ได้ โดยไม่ต้องเปิด MCP สาธารณะ
