@@ -66,3 +66,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-28 15:16:57 +07
 
 เริ่มอัปเดต COOLIFY_DEPLOY.md ด้วยค่าที่ตรวจจริง: candidate mcp-suite.192.168.1.200.sslip.io, app port 8000, bearer/host/origin settings; ระบุ TLS route/cert ที่ root-owned path เป็น deployment blocker
+
+## 2026-10-28 15:18:48 +07
+
+อัปเดต COOLIFY_DEPLOY.md, README และ PLAN: candidate domain mcp-suite.192.168.1.200.sslip.io, app port/env vars/security/TLS/firewall settings; บันทึก Docker local smoke passed but not deployed. Blockers: Traefik dynamic dir root-owned, no trusted internal cert yet, and GitHub MCP_SERVER_UPDATE repo currently docs-only; no push/deploy performed.
