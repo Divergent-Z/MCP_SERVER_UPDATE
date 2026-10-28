@@ -58,3 +58,7 @@ Docker smoke test ของ MCP Suite UI ผ่าน: /healthz, /api/status, UI
 ## 2026-10-28 14:50:15 +07
 
 ตกลงใช้ internal TLS สำหรับ MCP Suite LAN domain mcp-suite.192.168.1.200.sslip.io; กำลังตรวจ Coolify proxy/custom certificate workflow โดยจะไม่เผยหรือส่ง private key ผ่าน UI
+
+## 2026-10-28 14:52:04 +07
+
+Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.168.1.200; TLS inspection found existing proxy certs untrusted and /data/coolify/proxy/dynamic is root:root/non-writable, so safe deployment is blocked pending administrator-approved installation of internal CA/cert and Traefik dynamic route. No privileged workaround or LAN exposure performed.
