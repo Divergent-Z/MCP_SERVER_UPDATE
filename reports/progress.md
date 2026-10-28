@@ -26,3 +26,7 @@ Prototype MCP_SERVICE_AUTOMATION เสร็จรอบแรก: quote_genera
 ## 2026-10-28 11:58:11 +07
 
 เริ่มเติม MCP_AI_KNOWLES และ MCP_SEO_COPILOT ให้เป็น local MCP prototypes ที่ client ใช้งานได้; AI Knowles จะให้ evidence-grounded prompt, SEO Copilot จะวิเคราะห์ metrics/ร่างแคมเปญโดยไม่ต่อ ad account, จากนั้นเพิ่ม client config guide
+
+## 2026-10-28 12:11:37 +07
+
+Service Automation รองรับ MCP_TRANSPORT=stdio สำหรับ local clients แล้ว; regression tests 10/10 ผ่าน กำลังเพิ่ม AI Knowles prompt/validation และ SEO Copilot metrics/experiment tools พร้อม tests โดยยังไม่เชื่อม provider, DB หรือ ad platforms
