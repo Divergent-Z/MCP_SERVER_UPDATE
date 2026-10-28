@@ -46,3 +46,7 @@ Prototype ทั้งสาม MCP พร้อม local stdio configs สำ�
 ## 2026-10-28 13:41:16 +07
 
 MCP_WEB_UI app และ bearer-protected gateway สร้างแล้ว; UI/assets/download/status routes ทำงาน, MCP ไม่มี token ได้ 401, token-valid request ผ่านเข้าชั้น MCP, Host ไม่ allow ถูกปฏิเสธ; กำลังเตรียม Coolify deployment docs/build
+
+## 2026-10-28 14:17:38 +07
+
+ดำเนินการต่อ local Docker smoke test ของ MCP Suite UI/Coolify image; ยืนยัน container mcp-suite-ui-smoke bind เฉพาะ 127.0.0.1:18088; health route จริงคือ /healthz (ก่อนหน้าทดสอบผิด path /health)
