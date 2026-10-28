@@ -30,3 +30,7 @@ Prototype MCP_SERVICE_AUTOMATION เสร็จรอบแรก: quote_genera
 ## 2026-10-28 12:11:37 +07
 
 Service Automation รองรับ MCP_TRANSPORT=stdio สำหรับ local clients แล้ว; regression tests 10/10 ผ่าน กำลังเพิ่ม AI Knowles prompt/validation และ SEO Copilot metrics/experiment tools พร้อม tests โดยยังไม่เชื่อม provider, DB หรือ ad platforms
+
+## 2026-10-28 12:20:33 +07
+
+Prototype ทั้งสาม MCP พร้อม local stdio configs สำหรับ Claude Desktop/Code, Cursor และ OpenCode; tools/prompts discover ผ่านครบ 12 server launches; tests ผ่าน AI Knowles 5, SEO Copilot 5, Service Automation 10, Python compile/diagnostics ผ่าน ยังไม่มี live LLM/ad/CRM/DB connectors หรือ customer validation
