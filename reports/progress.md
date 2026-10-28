@@ -22,3 +22,7 @@ MCP_SERVICE_AUTOMATION prototype เพิ่ม quote_generator, follow_up_remi
 ## 2026-10-28 04:58:13 +07
 
 Prototype MCP_SERVICE_AUTOMATION เสร็จรอบแรก: quote_generator, follow_up_reminder, job_report_summarizer; official mcp 2.3.0/Streamable HTTP, loopback-only; MCP client end-to-end ผ่าน, unit tests 10/10 และ compile ผ่าน; ไม่มี DB/API/customer side effects; docs สะท้อนสถานะ prototype
+
+## 2026-10-28 11:58:11 +07
+
+เริ่มเติม MCP_AI_KNOWLES และ MCP_SEO_COPILOT ให้เป็น local MCP prototypes ที่ client ใช้งานได้; AI Knowles จะให้ evidence-grounded prompt, SEO Copilot จะวิเคราะห์ metrics/ร่างแคมเปญโดยไม่ต่อ ad account, จากนั้นเพิ่ม client config guide
