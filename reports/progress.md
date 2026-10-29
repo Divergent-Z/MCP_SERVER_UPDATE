@@ -86,3 +86,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:31:20 +07
 
 สถานะ MCP Suite (2026-10-29): มี Python MCP prototypes ทั้ง 3 ด้านและ local client configs; unit tests ผ่าน AI Knowles 5, SEO Copilot 5, Service Automation 10, UI/security tests 7 และ remote client tests 8; Docker image/UI smoke ผ่าน health, downloads และ MCP unauthorized=401; ยังไม่ deploy Coolify จริง เพราะ internal TLS/Traefik dynamic config ต้อง admin ติดตั้ง และ repository ที่เชื่อมอยู่ยังไม่มี app source
+
+## 2026-10-29 16:32:32 +07
+
+ปิดงาน 2026-10-29: ลบ backup ของ microtronic-mcp-platform ที่ /mnt/backup/GIT (ถาวร ตามคำสั่ง) และเขียน SEAN/mcp-platform ใหม่ 4 ไฟล์ (README, spec, runbook, sop) ให้ชี้ /home/devg/MCP เป็นแหล่งความจริง; ลบโฟลเดอร์เปล่า modules/ ทั้ง 3; commit c869bec. ตอนนี้เหลือ MCP ชุดเดียว ไม่มีซ้ำซ้อน. ยังค้าง: deploy Coolify/HTTPS ภายใน และ customer validation
