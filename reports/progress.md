@@ -94,3 +94,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:39:08 +07
 
 เริ่มงาน 2026-10-29: ตรวจ PLAN.md เทียบสถานะจริง แล้วทำข้อที่ทำได้ให้ครบ (spec/contracts/ADR/tests/demo) ส่วนที่ต้องลูกค้าจริง (interview/pitch/pilot/ROI) จะรายงานตามจริงว่ายังติดอยู่ ไม่ลงข้อที่ไม่มีหลักฐาน
+
+## 2026-10-29 16:46:05 +07
+
+ลงมือทำ PLAN.md 2026-10-29: เพิ่ม docs/DECISIONS.md (ADR-001..008) และ docs/JOURNEY_AND_POLICY.md (handoff 3 area, ภาษา/วันที่/สกุลเงิน THB, ข้อมูลลูกค้า, consent, side-effect policy, idempotency, acceptance criteria, baseline ROI template); generate spec/tool_contracts.json จากโค้ด + drift check; เพิ่ม idempotency_key ใน quote/follow-up draft; เพิ่ม access log แบบไม่ log secret; สคริปต์ run_tests/acceptance_check/pilot_journey; อัปเดต CLIENT_SETUP, MVP_SPEC, PLAN checklist ให้ตรงความจริง
