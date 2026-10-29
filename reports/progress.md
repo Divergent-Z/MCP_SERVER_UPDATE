@@ -102,3 +102,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:46:35 +07
 
 ปิดงาน PLAN.md 2026-10-29: ตรวจครบทุกข้อ — ทำได้ 16 ข้อ (runtime/transport/auth/storage/contract/handoff/ภาษา-สกุลเงิน/consent/side-effect/idempotency/tests/logs/demo/config guide) พร้อมหลักฐานรันจริง 45 unit tests + 17 acceptance checks + stdio 3 servers. เหลือ 9 ข้อที่ต้องคน/ลูกค้า/ผู้ดูแลระบบ: สัมภาษณ์ 5 ราย, pitch 2-3, pilot 1-2, วัด ROI, case study, ราคา, ทดสอบ Claude Desktop/Cursor (ไม่ได้ติดตั้ง), OpenCode workspace config, deploy Coolify+internal CA. MCP/ ยังไม่ถูก track ใน home repo (มี nested repo MCP_SERVER_UPDATE) — ยังไม่ commit
+
+## 2026-10-29 16:46:54 +07
+
+แก้ตัวเลขรายงานก่อนหน้า (2026-10-29): PLAN.md มี 26 ข้อ — ทำเสร็จ 17 ข้อ, ค้าง 9 ข้อ (ไม่ใช่ 16 ตามที่รายงานก่อนหน้า). 9 ข้อที่ค้าง: validate niche, สัมภาษณ์ 5 ราย, ทดสอบ Claude Desktop, ทดสอบ Cursor, OpenCode workspace config, pitch, pilot, วัด ROI, case study+ราคา
