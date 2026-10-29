@@ -90,3 +90,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:32:32 +07
 
 ปิดงาน 2026-10-29: ลบ backup ของ microtronic-mcp-platform ที่ /mnt/backup/GIT (ถาวร ตามคำสั่ง) และเขียน SEAN/mcp-platform ใหม่ 4 ไฟล์ (README, spec, runbook, sop) ให้ชี้ /home/devg/MCP เป็นแหล่งความจริง; ลบโฟลเดอร์เปล่า modules/ ทั้ง 3; commit c869bec. ตอนนี้เหลือ MCP ชุดเดียว ไม่มีซ้ำซ้อน. ยังค้าง: deploy Coolify/HTTPS ภายใน และ customer validation
+
+## 2026-10-29 16:39:08 +07
+
+เริ่มงาน 2026-10-29: ตรวจ PLAN.md เทียบสถานะจริง แล้วทำข้อที่ทำได้ให้ครบ (spec/contracts/ADR/tests/demo) ส่วนที่ต้องลูกค้าจริง (interview/pitch/pilot/ROI) จะรายงานตามจริงว่ายังติดอยู่ ไม่ลงข้อที่ไม่มีหลักฐาน
