@@ -70,3 +70,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-28 15:18:48 +07
 
 อัปเดต COOLIFY_DEPLOY.md, README และ PLAN: candidate domain mcp-suite.192.168.1.200.sslip.io, app port/env vars/security/TLS/firewall settings; บันทึก Docker local smoke passed but not deployed. Blockers: Traefik dynamic dir root-owned, no trusted internal cert yet, and GitHub MCP_SERVER_UPDATE repo currently docs-only; no push/deploy performed.
+
+## 2026-10-29 16:19:35 +07
+
+ความคืบหน้า 2026-10-29: microtronic-mcp-platform เปลี่ยน /mcp เป็น MCP Streamable HTTP จริง (SDK 1.32, stateless) มี initialize/tools/list/tools/call; auth ผูก role กับ API key (read-only/action) และ bind 127.0.0.1; เพิ่ม systemd user service microtronic-mcp :8088; ops tools 4 ตัวอ่านข้อมูลจริง (uptime, disk_memory, health_check, backup_status); opencode ตั้ง disabled ทั้ง 12 MCP ไม่ auto-connect เปิดเองผ่าน /mcps
