@@ -106,3 +106,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:46:54 +07
 
 แก้ตัวเลขรายงานก่อนหน้า (2026-10-29): PLAN.md มี 26 ข้อ — ทำเสร็จ 17 ข้อ, ค้าง 9 ข้อ (ไม่ใช่ 16 ตามที่รายงานก่อนหน้า). 9 ข้อที่ค้าง: validate niche, สัมภาษณ์ 5 ราย, ทดสอบ Claude Desktop, ทดสอบ Cursor, OpenCode workspace config, pitch, pilot, วัด ROI, case study+ราคา
+
+## 2026-10-29 19:10:19 +07
+
+2026-10-29: commit + push MCP/ ขึ้น Gitea สำเร็จ — repo http://192.168.1.200:3000/Microtronic_TH/MICROTRONIC-MCP.git branch main, commit 81ad9f1 (initial import ee3728d + docs update). 56 ไฟล์, ไม่มี .env/.venv/secret ขึ้น remote, ไม่รวม nested repo MCP_SERVER_UPDATE. อัปเดต COOLIFY_DEPLOY.md ให้ชี้ repo นี้แทน blocker เดิม (ยังไม่ deploy). token ใช้ผ่าน GIT_ASKPASS ชั่วคราวแล้วลบทิ้ง ไม่เก็บใน remote URL หรือ .git/config
