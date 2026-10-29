@@ -78,3 +78,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:19:41 +07
 
 ตรวจสอบและปิดงาน 2026-10-29: build tsc ผ่าน; ทดสอบ MCP จริงครบ initialize/tools/list(12 tools)/tools/call; key ผิดได้ 401; spoof x-role ไม่มีผล; SDK client เชื่อมได้ 12 tools; /health ok toolCount 12; unit tests ของ workspace MCP ผ่าน 14/14; สำรองโค้ดเป็น tar.gz ที่ /mnt/backup/GIT/microtronic-mcp-platform (gzip ผ่าน, ทดสอบแตกไฟล์ได้). ยังค้าง: SEO tools ยังเป็น stub, ไม่มี persistence, ไม่ได้ deploy Coolify/remote และยังไม่มี customer validation
+
+## 2026-10-29 16:28:43 +07
+
+ตัดซ้ำซ้อน 2026-10-29: ลบ microtronic-mcp-platform ออกทั้งโฟลเดอร์ ถอน systemd service (port 8088 ปิด) และลบ MCP entry ออกจาก opencode config เหลือ MCP เพียงชุดเดียวตาม workspace MCP/. สำรองไว้ที่ /mnt/backup/GIT/microtronic-mcp-platform (tar.gz, กู้ได้). ยังค้าง: เอกสาร SEAN/mcp-platform ยังอ้างถึง platform ที่ลบแล้ว รอตัดสินใจลบ/แก้
