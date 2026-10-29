@@ -98,3 +98,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-10-29 16:46:05 +07
 
 ลงมือทำ PLAN.md 2026-10-29: เพิ่ม docs/DECISIONS.md (ADR-001..008) และ docs/JOURNEY_AND_POLICY.md (handoff 3 area, ภาษา/วันที่/สกุลเงิน THB, ข้อมูลลูกค้า, consent, side-effect policy, idempotency, acceptance criteria, baseline ROI template); generate spec/tool_contracts.json จากโค้ด + drift check; เพิ่ม idempotency_key ใน quote/follow-up draft; เพิ่ม access log แบบไม่ log secret; สคริปต์ run_tests/acceptance_check/pilot_journey; อัปเดต CLIENT_SETUP, MVP_SPEC, PLAN checklist ให้ตรงความจริง
+
+## 2026-10-29 16:46:35 +07
+
+ปิดงาน PLAN.md 2026-10-29: ตรวจครบทุกข้อ — ทำได้ 16 ข้อ (runtime/transport/auth/storage/contract/handoff/ภาษา-สกุลเงิน/consent/side-effect/idempotency/tests/logs/demo/config guide) พร้อมหลักฐานรันจริง 45 unit tests + 17 acceptance checks + stdio 3 servers. เหลือ 9 ข้อที่ต้องคน/ลูกค้า/ผู้ดูแลระบบ: สัมภาษณ์ 5 ราย, pitch 2-3, pilot 1-2, วัด ROI, case study, ราคา, ทดสอบ Claude Desktop/Cursor (ไม่ได้ติดตั้ง), OpenCode workspace config, deploy Coolify+internal CA. MCP/ ยังไม่ถูก track ใน home repo (มี nested repo MCP_SERVER_UPDATE) — ยังไม่ commit
