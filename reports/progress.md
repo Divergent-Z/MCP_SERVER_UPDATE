@@ -246,3 +246,7 @@ Starting an n8n integration POC for Service Automation: an inactive manual quote
 ## 2026-11-02 00:38:36 +07
 
 Added an inactive n8n manual quote-draft workflow template with synthetic input and placeholder URL, plus setup and safety notes. No live n8n workflow, credentials, Docker network, or business data were modified.
+
+## 2026-11-02 00:38:44 +07
+
+Validated the n8n workflow JSON safety invariants and configuration fields against the installed n8n 2.42.7 MCP Client node; diff and diagnostics are clean. End-to-end n8n-to-MCP connectivity remains blocked by separate Docker networks and an unreachable gateway candidate.
