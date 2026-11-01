@@ -238,3 +238,7 @@ MCP_SEO_COPILOT: Hardened Search Console response parsing to reject missing clic
 ## 2026-11-02 00:35:56 +07
 
 บันทึกใน MCP_WEB_UI README/AGENTS ว่า Tailscale Funnel server.tailb9d429.ts.net:8443 -> localhost:6432 เป็นเส้นทาง external webdb ที่ตั้งใจไว้สำหรับการใช้งานจากเว็บ Vercel; ไม่ให้ถือว่าเป็น misconfiguration หรือเปลี่ยนระหว่างงาน MCP โดยไม่มีคำสั่ง เส้นทางนี้ไม่ใช่ MCP endpoint. Diagnostics และ diff check ผ่าน.
+
+## 2026-11-02 00:36:21 +07
+
+Starting an n8n integration POC for Service Automation: an inactive manual quote-draft workflow using synthetic data and placeholder endpoint/credentials; current container network reachability is not available.
