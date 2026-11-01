@@ -170,3 +170,7 @@ Completed the requested MCP Suite handoff update: administrator business rules a
 ## 2026-11-01 23:38:09 +07
 
 เพิ่มขั้นตอน commit/push source ของ MCP_WEB_UI ใน AGENTS.md และ README.md: Gitea origin/main, ใช้ Git CLI, ตรวจ branch/remote/working tree, stage เฉพาะไฟล์ที่อนุมัติ, ตรวจ staged diff และขออนุมัติก่อน source commit/push; แยกจาก progress reporter ที่เขียน Discord และ GitHub reports/progress.md. Diagnostics และ diff check ผ่าน; ไม่ได้ทำ source push.
+
+## 2026-11-01 23:39:58 +07
+
+ปรับ REPORTING.md เป็นขั้นตอนสำหรับ AI: ระบุว่าเมื่อใดต้องรายงาน, ใช้ reporter อ่านค่าจาก .env โดยไม่เปิดเผย credential, แปลผลส่งทั้ง/บางปลายทาง และห้าม retry อัตโนมัติเมื่อ partial failure; แยก report commit จาก source push และระบุว่า timer ต้องมีคำสั่งตรง ผลตรวจ: reporter tests 6/6 ผ่าน, diagnostics/whitespace check ผ่าน
