@@ -194,3 +194,7 @@ Starting MCP_AI_KNOWLES baseline and tool-routing work: verified the installed M
 ## 2026-11-01 23:59:37 +07
 
 Implemented a sourced MCP_AI_KNOWLES product baseline and tool/prompt routing via MCP initialization instructions. Documented that customer profiles are not persisted pending an approved schema and access model. Validation: 8 unit tests passed, compileall and MCP stdio instruction/tool discovery smoke passed; no database schema was changed.
+
+## 2026-11-02 00:00:07 +07
+
+Starting to record the shared webdb guide as the required database standard in MCP_SERVICE_AUTOMATION instructions; no database or schema changes are planned.
