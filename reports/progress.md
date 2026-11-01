@@ -190,3 +190,7 @@ MCP_SEO_COPILOT: Added an Admin handoff checklist to README.md covering business
 ## 2026-11-01 23:57:48 +07
 
 Starting MCP_AI_KNOWLES baseline and tool-routing work: verified the installed MCP SDK supports server instructions; reviewing the approved profile-storage design without changing database schema.
+
+## 2026-11-01 23:59:37 +07
+
+Implemented a sourced MCP_AI_KNOWLES product baseline and tool/prompt routing via MCP initialization instructions. Documented that customer profiles are not persisted pending an approved schema and access model. Validation: 8 unit tests passed, compileall and MCP stdio instruction/tool discovery smoke passed; no database schema was changed.
