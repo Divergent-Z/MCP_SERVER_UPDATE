@@ -166,3 +166,7 @@ Completed the requested MCP Suite handoff update: administrator business rules a
 ## 2026-11-01 23:32:40 +07
 
 ปรับคำแนะนำ REPORTING.md และ AGENTS.md ให้ agent ใช้ค่าจาก /home/devg/MCP/.env ผ่าน report_progress.py โดยไม่ขอหรือเปิดเผย credential; ระบุชัดว่า timer ต้องมีคำสั่งตรงจากผู้ใช้ ตรวจแล้ว progress reporter tests ผ่าน 14/14, MCP_WEB_UI tests ผ่าน 10/10 และ diagnostics ผ่าน
+
+## 2026-11-01 23:38:09 +07
+
+เพิ่มขั้นตอน commit/push source ของ MCP_WEB_UI ใน AGENTS.md และ README.md: Gitea origin/main, ใช้ Git CLI, ตรวจ branch/remote/working tree, stage เฉพาะไฟล์ที่อนุมัติ, ตรวจ staged diff และขออนุมัติก่อน source commit/push; แยกจาก progress reporter ที่เขียน Discord และ GitHub reports/progress.md. Diagnostics และ diff check ผ่าน; ไม่ได้ทำ source push.
