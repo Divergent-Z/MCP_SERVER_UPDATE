@@ -154,3 +154,7 @@ Updated docs/JOURNEY_AND_POLICY.md with the administrator business-rule discover
 ## 2026-11-01 23:31:36 +07
 
 Validated the handoff documentation change with git diff --check; no whitespace issues remain. No code changed, so program tests were not applicable.
+
+## 2026-11-01 23:31:42 +07
+
+ปรับ MCP_WEB_UI ให้รองรับ endpoint หลายเครือข่ายและเลือก URL จากหน้าเว็บ เพิ่มการตรวจ URL credentials/host และอัปเดตคู่มือ Coolify/LAN/Tailscale; tests ผ่าน 10/10 และ Docker loopback smoke test ผ่าน การ deploy จริงยังรอ Coolify route/TLS configuration.
