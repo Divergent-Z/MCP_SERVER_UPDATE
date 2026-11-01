@@ -114,3 +114,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-11-01 22:29:25 +07
 
 เริ่มตรวจ MCP_SEO_COPILOT README และออกแบบ workflow deploy แบบประหยัดทรัพยากรสำหรับ Gitea/Coolify; ยังไม่มีการ deploy หรือเปลี่ยนระบบปลายทาง
+
+## 2026-11-01 22:30:55 +07
+
+ตรวจ MCP_SEO_COPILOT README แล้ว: ระบุเครื่องมือสามรายการและข้อจำกัด read-only/draft-only ชัดเจน; ชุดทดสอบปัจจุบันผ่าน 19 tests และ py_compile ผ่าน กำลังเพิ่มแนวทาง deploy แบบ Coolify-native ที่ใช้ Gitea เป็น source โดยไม่เพิ่ม Actions runner
