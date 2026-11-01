@@ -158,3 +158,7 @@ Validated the handoff documentation change with git diff --check; no whitespace 
 ## 2026-11-01 23:31:42 +07
 
 ปรับ MCP_WEB_UI ให้รองรับ endpoint หลายเครือข่ายและเลือก URL จากหน้าเว็บ เพิ่มการตรวจ URL credentials/host และอัปเดตคู่มือ Coolify/LAN/Tailscale; tests ผ่าน 10/10 และ Docker loopback smoke test ผ่าน การ deploy จริงยังรอ Coolify route/TLS configuration.
+
+## 2026-11-01 23:31:45 +07
+
+Completed the requested MCP Suite handoff update: administrator business rules are now documented as prerequisites before business-specific configuration or pilot, not runtime caller inputs.
