@@ -126,3 +126,7 @@ Coolify LAN domain candidate mcp-suite.192.168.1.200.sslip.io resolves to 192.16
 ## 2026-11-01 22:46:32 +07
 
 Added project-specific post-task reporting requirements to AGENTS.md and the service-workflows skill; validated both files.
+
+## 2026-11-01 22:50:09 +07
+
+MCP_SEO_COPILOT: Added an AGENTS.md rule to read REPORTING.md and publish a concise progress report after repository changes. Documentation diagnostics and git diff check passed.
