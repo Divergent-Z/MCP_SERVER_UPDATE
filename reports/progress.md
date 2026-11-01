@@ -186,3 +186,7 @@ Updated MCP Suite handoff guidance in docs/JOURNEY_AND_POLICY.md for AI Knowles:
 ## 2026-11-01 23:42:54 +07
 
 MCP_SEO_COPILOT: Added an Admin handoff checklist to README.md covering business goals, brand classification, approved Search Console access, and conversion attribution. README diagnostics and git diff check passed.
+
+## 2026-11-01 23:57:48 +07
+
+Starting MCP_AI_KNOWLES baseline and tool-routing work: verified the installed MCP SDK supports server instructions; reviewing the approved profile-storage design without changing database schema.
