@@ -206,3 +206,7 @@ Starting to record the shared webdb guide as the required database standard in M
 ## 2026-11-02 00:00:51 +07
 
 Recorded the shared WebDB rules in MCP_SERVICE_AUTOMATION/AGENTS.md: required guide/skill reading, schema reuse, approval before DDL, audited migrations, central registry updates, content-table naming, and secret handling. Verified all guide paths exist and git diff --check passes; no database or schema changes were made.
+
+## 2026-11-02 00:06:04 +07
+
+MCP_SEO_COPILOT: Added a read-only Search Console fetch tool using Google ADC and the webmasters.readonly scope. Added mocked adapter/HTTP tests; all 27 tests, compile checks, dependency check, MCP registration, and loopback route smoke test passed. Live property access remains pending Admin credentials and authorization.
