@@ -174,3 +174,7 @@ Completed the requested MCP Suite handoff update: administrator business rules a
 ## 2026-11-01 23:39:58 +07
 
 ปรับ REPORTING.md เป็นขั้นตอนสำหรับ AI: ระบุว่าเมื่อใดต้องรายงาน, ใช้ reporter อ่านค่าจาก .env โดยไม่เปิดเผย credential, แปลผลส่งทั้ง/บางปลายทาง และห้าม retry อัตโนมัติเมื่อ partial failure; แยก report commit จาก source push และระบุว่า timer ต้องมีคำสั่งตรง ผลตรวจ: reporter tests 6/6 ผ่าน, diagnostics/whitespace check ผ่าน
+
+## 2026-11-01 23:42:26 +07
+
+Reviewed REPORTING.md and confirmed the required workflow: send only concise factual updates at meaningful stages via report_progress.py, never inspect or expose credentials, and state Discord and GitHub results accurately.
