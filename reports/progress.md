@@ -202,3 +202,7 @@ Starting to record the shared webdb guide as the required database standard in M
 ## 2026-11-02 00:00:34 +07
 
 อ่านเอกสารทั้งหมดใน /home/devg/SEAN/webdb-guide และ webdb-internal-usage skill; เพิ่มกฎใช้ฐานข้อมูลกลางใน MCP_WEB_UI/AGENTS.md และ README.md: ไม่ใช้ DB โดยปริยาย, อ่าน schema registry, reuse, รออนุมัติก่อน DDL/data mutation, เก็บ migration และอัปเดต registry, ไม่เปิดเผย secrets. ตรวจ diagnostics และ diff check ผ่าน; ไม่ได้เปลี่ยนฐานข้อมูล.
+
+## 2026-11-02 00:00:51 +07
+
+Recorded the shared WebDB rules in MCP_SERVICE_AUTOMATION/AGENTS.md: required guide/skill reading, schema reuse, approval before DDL, audited migrations, central registry updates, content-table naming, and secret handling. Verified all guide paths exist and git diff --check passes; no database or schema changes were made.
