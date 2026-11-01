@@ -162,3 +162,7 @@ Validated the handoff documentation change with git diff --check; no whitespace 
 ## 2026-11-01 23:31:45 +07
 
 Completed the requested MCP Suite handoff update: administrator business rules are now documented as prerequisites before business-specific configuration or pilot, not runtime caller inputs.
+
+## 2026-11-01 23:32:40 +07
+
+ปรับคำแนะนำ REPORTING.md และ AGENTS.md ให้ agent ใช้ค่าจาก /home/devg/MCP/.env ผ่าน report_progress.py โดยไม่ขอหรือเปิดเผย credential; ระบุชัดว่า timer ต้องมีคำสั่งตรงจากผู้ใช้ ตรวจแล้ว progress reporter tests ผ่าน 14/14, MCP_WEB_UI tests ผ่าน 10/10 และ diagnostics ผ่าน
