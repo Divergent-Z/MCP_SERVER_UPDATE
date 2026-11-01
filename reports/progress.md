@@ -230,3 +230,7 @@ Added an OSMEP 2024 construction-sector public baseline to MCP_AI_KNOWLES server
 ## 2026-11-02 00:25:17 +07
 
 Validation complete for the OSMEP public baseline added to MCP_AI_KNOWLES: 8 unit tests passed, compileall and diff checks passed, and MCP stdio confirmed the cited 2024 TSIC 41-43 aggregates and limitations reach the client. No company contacts were found in this dataset; no DB writes or schema changes were made.
+
+## 2026-11-02 00:26:52 +07
+
+MCP_SEO_COPILOT: Hardened Search Console response parsing to reject missing click/impression/position fields and non-string dimensions instead of fabricating data. Added two fake-client tests; all 29 tests and compile checks passed. Live Google query remains unverified without Admin credentials.
