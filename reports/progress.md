@@ -218,3 +218,7 @@ MCP_SEO_COPILOT: Read all six WebDB guide documents and recorded the shared data
 ## 2026-11-02 00:14:20 +07
 
 MCP_SEO_COPILOT: Added a rule to consult MCP_AI_KNOWLES with caller-supplied evidence or ask the user before independent external research. Confirmed Knowles has no external data connector. AGENTS diagnostics and git diff check passed.
+
+## 2026-11-02 00:19:38 +07
+
+Starting official-source research for the MCP_AI_KNOWLES handoff: separating public product/market baselines from customer-specific facts that must come from an admin. No database access or writes planned.
