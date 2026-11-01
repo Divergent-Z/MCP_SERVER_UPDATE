@@ -242,3 +242,7 @@ MCP_SEO_COPILOT: Hardened Search Console response parsing to reject missing clic
 ## 2026-11-02 00:36:21 +07
 
 Starting an n8n integration POC for Service Automation: an inactive manual quote-draft workflow using synthetic data and placeholder endpoint/credentials; current container network reachability is not available.
+
+## 2026-11-02 00:38:36 +07
+
+Added an inactive n8n manual quote-draft workflow template with synthetic input and placeholder URL, plus setup and safety notes. No live n8n workflow, credentials, Docker network, or business data were modified.
