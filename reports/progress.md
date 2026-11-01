@@ -138,3 +138,7 @@ Improved MCP quote input schema to accept exact decimal strings, made revenue ro
 ## 2026-11-01 23:18:46 +07
 
 Explained the current MCP tools and clarified the business rules administrators can provide and synthetic caller data suitable for testing. No code or product configuration changed.
+
+## 2026-11-01 23:24:05 +07
+
+Located the canonical cross-MCP handoff policy in docs/JOURNEY_AND_POLICY.md. Adding explicit pre-handoff discovery items for business rules, data contracts, permissions, and test evidence.
