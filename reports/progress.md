@@ -134,3 +134,7 @@ MCP_SEO_COPILOT: Added an AGENTS.md rule to read REPORTING.md and publish a conc
 ## 2026-11-01 23:16:05 +07
 
 Improved MCP quote input schema to accept exact decimal strings, made revenue rounding explicit, added a rounding regression test, and documented the Streamable HTTP endpoint and canonical virtualenv startup. Verified all service tests and a live local MCP client handshake and quote call.
+
+## 2026-11-01 23:18:46 +07
+
+Explained the current MCP tools and clarified the business rules administrators can provide and synthetic caller data suitable for testing. No code or product configuration changed.
