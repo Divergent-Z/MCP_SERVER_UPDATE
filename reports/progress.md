@@ -214,3 +214,7 @@ MCP_SEO_COPILOT: Added a read-only Search Console fetch tool using Google ADC an
 ## 2026-11-02 00:09:55 +07
 
 MCP_SEO_COPILOT: Read all six WebDB guide documents and recorded the shared database workflow in AGENTS.md. Documentation diagnostics and git diff check passed; no database or schema changes were made.
+
+## 2026-11-02 00:14:20 +07
+
+MCP_SEO_COPILOT: Added a rule to consult MCP_AI_KNOWLES with caller-supplied evidence or ask the user before independent external research. Confirmed Knowles has no external data connector. AGENTS diagnostics and git diff check passed.
