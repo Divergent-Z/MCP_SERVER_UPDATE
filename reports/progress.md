@@ -226,3 +226,7 @@ Starting official-source research for the MCP_AI_KNOWLES handoff: separating pub
 ## 2026-11-02 00:24:39 +07
 
 Added an OSMEP 2024 construction-sector public baseline to MCP_AI_KNOWLES server instructions and handoff, with CC BY attribution, TSIC 41-43 breakdown, size/source counts, and explicit non-contact-list/non-TAM limitations. No DB/schema writes. Unit tests: 8 passed.
+
+## 2026-11-02 00:25:17 +07
+
+Validation complete for the OSMEP public baseline added to MCP_AI_KNOWLES: 8 unit tests passed, compileall and diff checks passed, and MCP stdio confirmed the cited 2024 TSIC 41-43 aggregates and limitations reach the client. No company contacts were found in this dataset; no DB writes or schema changes were made.
