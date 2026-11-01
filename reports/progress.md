@@ -198,3 +198,7 @@ Implemented a sourced MCP_AI_KNOWLES product baseline and tool/prompt routing vi
 ## 2026-11-02 00:00:07 +07
 
 Starting to record the shared webdb guide as the required database standard in MCP_SERVICE_AUTOMATION instructions; no database or schema changes are planned.
+
+## 2026-11-02 00:00:34 +07
+
+อ่านเอกสารทั้งหมดใน /home/devg/SEAN/webdb-guide และ webdb-internal-usage skill; เพิ่มกฎใช้ฐานข้อมูลกลางใน MCP_WEB_UI/AGENTS.md และ README.md: ไม่ใช้ DB โดยปริยาย, อ่าน schema registry, reuse, รออนุมัติก่อน DDL/data mutation, เก็บ migration และอัปเดต registry, ไม่เปิดเผย secrets. ตรวจ diagnostics และ diff check ผ่าน; ไม่ได้เปลี่ยนฐานข้อมูล.
