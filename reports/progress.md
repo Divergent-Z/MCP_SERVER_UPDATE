@@ -130,3 +130,7 @@ Added project-specific post-task reporting requirements to AGENTS.md and the ser
 ## 2026-11-01 22:50:09 +07
 
 MCP_SEO_COPILOT: Added an AGENTS.md rule to read REPORTING.md and publish a concise progress report after repository changes. Documentation diagnostics and git diff check passed.
+
+## 2026-11-01 23:16:05 +07
+
+Improved MCP quote input schema to accept exact decimal strings, made revenue rounding explicit, added a rounding regression test, and documented the Streamable HTTP endpoint and canonical virtualenv startup. Verified all service tests and a live local MCP client handshake and quote call.
