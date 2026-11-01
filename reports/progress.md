@@ -146,3 +146,7 @@ Located the canonical cross-MCP handoff policy in docs/JOURNEY_AND_POLICY.md. Ad
 ## 2026-11-01 23:25:11 +07
 
 Starting a documentation update to add administrator business-rule discovery as a prerequisite in the MCP Suite handoff policy.
+
+## 2026-11-01 23:31:28 +07
+
+Updated docs/JOURNEY_AND_POLICY.md with the administrator business-rule discovery gate for service catalog/pricing, tax/discount/rounding, quote follow-up policy, report definitions, and approved synthetic examples.
