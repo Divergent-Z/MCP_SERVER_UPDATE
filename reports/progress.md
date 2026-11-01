@@ -234,3 +234,7 @@ Validation complete for the OSMEP public baseline added to MCP_AI_KNOWLES: 8 uni
 ## 2026-11-02 00:26:52 +07
 
 MCP_SEO_COPILOT: Hardened Search Console response parsing to reject missing click/impression/position fields and non-string dimensions instead of fabricating data. Added two fake-client tests; all 29 tests and compile checks passed. Live Google query remains unverified without Admin credentials.
+
+## 2026-11-02 00:35:56 +07
+
+บันทึกใน MCP_WEB_UI README/AGENTS ว่า Tailscale Funnel server.tailb9d429.ts.net:8443 -> localhost:6432 เป็นเส้นทาง external webdb ที่ตั้งใจไว้สำหรับการใช้งานจากเว็บ Vercel; ไม่ให้ถือว่าเป็น misconfiguration หรือเปลี่ยนระหว่างงาน MCP โดยไม่มีคำสั่ง เส้นทางนี้ไม่ใช่ MCP endpoint. Diagnostics และ diff check ผ่าน.
