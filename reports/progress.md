@@ -282,3 +282,7 @@ Updated root README with the primary accommodation, tourism, and real-estate tar
 ## 2026-11-02 12:50:57 +07
 
 Correction: the HTTP 401 was from an unauthenticated, read-only Gitea endpoint probe, not a confirmed git-push response. The push remained unverified and was stopped while waiting; local main still has three commits ahead. No credentials were inspected or shared.
+
+## 2026-11-02 12:53:28 +07
+
+Updated workspace AGENTS.md to require the documented Gitea Git CLI procedure for source pushes and report_progress.py as the sole progress-reporting tool. git diff --check passed; no source commit or push was performed.
