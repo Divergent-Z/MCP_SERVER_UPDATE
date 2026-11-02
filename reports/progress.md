@@ -302,3 +302,7 @@ Added the root Gitea push script, focused tests, safe .env.example settings, and
 ## 2026-11-02 22:30:00 +07
 
 Verified MCP suite: tests 5/5, acceptance 17/17, contracts sync pass. Pushed commit f195b5c40fbf6a1a7ce568e4ec01ff5d2d2f9229 to Gitea main. Deployed Coolify app microtronic-mcp (deployment zivaivugpttfdhzkdyhqtzmm finished); /healthz 200, / 200, /mcp without token 401. Added MCP release workflow skill.
+
+## 2026-11-02 23:44:11 +07
+
+Added public MCP discovery endpoints (/.well-known/mcp and /llms.txt) with tests. Pushed commit c3132027283ada4e2df3747a2ecd87737e6ca2ad to Gitea main. Deployed Coolify app microtronic-mcp (deployment 3dmkkd9mpqc5vbmorlmnjmv9 finished); verified /healthz 200, /.well-known/mcp 200, /llms.txt 200, /api/status 200, /mcp 401.
