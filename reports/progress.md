@@ -270,3 +270,7 @@ Starting authorized commit and push of 48 workspace paths to the confirmed Gitea
 ## 2026-11-02 12:02:34 +07
 
 Validation completed: MCP_SERVICE_AUTOMATION tests and credential scan passed; other suites and contract export were blocked by missing dependencies, acceptance health check did not start, and git diff --check passed.
+
+## 2026-11-02 12:11:40 +07
+
+Updated root README with the primary accommodation, tourism, and real-estate target segments plus a self-service Git push and progress-report guide. README diff check passed. The earlier Gitea source push remains incomplete: unauthenticated endpoint returned HTTP 401; local branch is still ahead by three commits.
