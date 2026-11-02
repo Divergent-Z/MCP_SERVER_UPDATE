@@ -278,3 +278,7 @@ Updated root README with the primary accommodation, tourism, and real-estate tar
 ## 2026-11-02 12:16:33 +07
 
 เริ่มปรับแผน MCP Suite ให้ที่พัก ธุรกิจท่องเที่ยว และอสังหาริมทรัพย์เป็นกลุ่มเป้าหมายหลัก โดยตรวจพบ README และเอกสาร Service Automation มีทิศทางนี้แล้ว แต่ PLAN, MVP_SPEC และ AI Knowles ยังอ้าง pilot ผู้รับเหมาเดิม; จะรักษาการระบุว่าเป็นสมมติฐานและตรวจ tool contracts/tests ที่เกี่ยวข้อง
+
+## 2026-11-02 12:50:57 +07
+
+Correction: the HTTP 401 was from an unauthenticated, read-only Gitea endpoint probe, not a confirmed git-push response. The push remained unverified and was stopped while waiting; local main still has three commits ahead. No credentials were inspected or shared.
