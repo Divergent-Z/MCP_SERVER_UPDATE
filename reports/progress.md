@@ -274,3 +274,7 @@ Validation completed: MCP_SERVICE_AUTOMATION tests and credential scan passed; o
 ## 2026-11-02 12:11:40 +07
 
 Updated root README with the primary accommodation, tourism, and real-estate target segments plus a self-service Git push and progress-report guide. README diff check passed. The earlier Gitea source push remains incomplete: unauthenticated endpoint returned HTTP 401; local branch is still ahead by three commits.
+
+## 2026-11-02 12:16:33 +07
+
+เริ่มปรับแผน MCP Suite ให้ที่พัก ธุรกิจท่องเที่ยว และอสังหาริมทรัพย์เป็นกลุ่มเป้าหมายหลัก โดยตรวจพบ README และเอกสาร Service Automation มีทิศทางนี้แล้ว แต่ PLAN, MVP_SPEC และ AI Knowles ยังอ้าง pilot ผู้รับเหมาเดิม; จะรักษาการระบุว่าเป็นสมมติฐานและตรวจ tool contracts/tests ที่เกี่ยวข้อง
