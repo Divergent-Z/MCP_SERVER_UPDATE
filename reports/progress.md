@@ -286,3 +286,7 @@ Correction: the HTTP 401 was from an unauthenticated, read-only Gitea endpoint p
 ## 2026-11-02 12:53:28 +07
 
 Updated workspace AGENTS.md to require the documented Gitea Git CLI procedure for source pushes and report_progress.py as the sole progress-reporting tool. git diff --check passed; no source commit or push was performed.
+
+## 2026-11-02 12:57:51 +07
+
+Updated MCP workspace AGENTS.md and README.md: no direct Git commands for MCP push workflows; use only the Python push script designated for the exact project/scope, and stop if none exists for the whole workspace. Progress reports remain exclusive to report_progress.py. Documentation whitespace check passed.
