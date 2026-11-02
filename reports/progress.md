@@ -294,3 +294,7 @@ Updated MCP workspace AGENTS.md and README.md: no direct Git commands for MCP pu
 ## 2026-11-02 13:07:27 +07
 
 Starting implementation of a root MCP Gitea push script. It will read configuration only from /home/devg/MCP/.env, provide a dry-run, reject environment files from commits, require explicit confirmation, and will not be executed for a real push during this task.
+
+## 2026-11-02 13:23:41 +07
+
+Added the root Gitea push script, focused tests, safe .env.example settings, and updated MCP push/report documentation. py_compile and 9 focused tests passed; diagnostics found no errors. The designated dry-run stopped because required GITEA_* settings are absent from /home/devg/MCP/.env; no live Gitea request, commit, or push was made.
