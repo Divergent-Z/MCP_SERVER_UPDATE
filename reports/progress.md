@@ -298,3 +298,7 @@ Starting implementation of a root MCP Gitea push script. It will read configurat
 ## 2026-11-02 13:23:41 +07
 
 Added the root Gitea push script, focused tests, safe .env.example settings, and updated MCP push/report documentation. py_compile and 9 focused tests passed; diagnostics found no errors. The designated dry-run stopped because required GITEA_* settings are absent from /home/devg/MCP/.env; no live Gitea request, commit, or push was made.
+
+## 2026-11-02 22:30:00 +07
+
+Verified MCP suite: tests 5/5, acceptance 17/17, contracts sync pass. Pushed commit f195b5c40fbf6a1a7ce568e4ec01ff5d2d2f9229 to Gitea main. Deployed Coolify app microtronic-mcp (deployment zivaivugpttfdhzkdyhqtzmm finished); /healthz 200, / 200, /mcp without token 401. Added MCP release workflow skill.
