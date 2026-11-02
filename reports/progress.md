@@ -306,3 +306,7 @@ Verified MCP suite: tests 5/5, acceptance 17/17, contracts sync pass. Pushed com
 ## 2026-11-02 23:44:11 +07
 
 Added public MCP discovery endpoints (/.well-known/mcp and /llms.txt) with tests. Pushed commit c3132027283ada4e2df3747a2ecd87737e6ca2ad to Gitea main. Deployed Coolify app microtronic-mcp (deployment 3dmkkd9mpqc5vbmorlmnjmv9 finished); verified /healthz 200, /.well-known/mcp 200, /llms.txt 200, /api/status 200, /mcp 401.
+
+## 2026-11-02 23:54:08 +07
+
+Added scripts/get_mcp_bearer_token.py to fetch MCP_BEARER_TOKEN from Coolify and write a mode-0600 client env file; documented token source in REMOTE_TESTING.md. Pushed commit 99e995498aedb5911e1488e002ce9440c5a14b62 to Gitea main. No runtime/deploy change.
