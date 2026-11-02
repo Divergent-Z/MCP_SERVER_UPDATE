@@ -290,3 +290,7 @@ Updated workspace AGENTS.md to require the documented Gitea Git CLI procedure fo
 ## 2026-11-02 12:57:51 +07
 
 Updated MCP workspace AGENTS.md and README.md: no direct Git commands for MCP push workflows; use only the Python push script designated for the exact project/scope, and stop if none exists for the whole workspace. Progress reports remain exclusive to report_progress.py. Documentation whitespace check passed.
+
+## 2026-11-02 13:07:27 +07
+
+Starting implementation of a root MCP Gitea push script. It will read configuration only from /home/devg/MCP/.env, provide a dry-run, reject environment files from commits, require explicit confirmation, and will not be executed for a real push during this task.
