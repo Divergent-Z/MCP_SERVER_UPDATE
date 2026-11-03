@@ -322,3 +322,7 @@ MCP web UI updated: Thai/English language selector across console/status/Admin, 
 ## 2026-11-03 22:31:04 +07
 
 Updated docs/PRIVACY.md and docs/GDPR_ASSESSMENT.md to distinguish non-persistent MCP tool-call data from the optional webdb business profile, which requires DATABASE_URL; clarified that profile validation does not technically filter personal data. Read-only endpoint checks returned HTTP 200; public HTTPS negotiated HTTP/2 and TLS 1.3 with certificate verification OK; the LAN HTTP health endpoint also returned 200. No credentials or database values were read; active DATABASE_URL configuration and internal proxy routing were not independently verified.
+
+## 2026-11-03 22:50:40 +07
+
+Updated PLAN.md, COOLIFY_DEPLOY.md, REMOTE_TESTING.md, CLIENT_SETUP.md, and docs/FEATURE_CHECKLIST.md to remove stale deployment-pending/HTTP-only claims, distinguish the MCP Traefik HTTPS route on port 443 from the separate webdb Funnel on port 8443, and correct backup/HTTP/DB checklist wording. Read-only endpoint checks returned 200; HTTPS negotiated HTTP/2 and TLS 1.3 with certificate verification OK (expires 2027-01-15); LAN HTTP health returned 200. git diff --check and document diagnostics passed. Authenticated client use, access denial from an unapproved network, and live DATABASE_URL configuration remain unverified; no secrets were read.
