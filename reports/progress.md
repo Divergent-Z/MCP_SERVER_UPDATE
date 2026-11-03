@@ -310,3 +310,7 @@ Added public MCP discovery endpoints (/.well-known/mcp and /llms.txt) with tests
 ## 2026-11-02 23:54:08 +07
 
 Added scripts/get_mcp_bearer_token.py to fetch MCP_BEARER_TOKEN from Coolify and write a mode-0600 client env file; documented token source in REMOTE_TESTING.md. Pushed commit 99e995498aedb5911e1488e002ce9440c5a14b62 to Gitea main. No runtime/deploy change.
+
+## 2026-11-03 16:41:46 +07
+
+MCP web UI updated: Thai/English language selector across console/status/Admin, Admin Business-profile editor (GET/PUT /api/admin/profile), admin multi-select CSV export, gateway run_read_only_batch read-only tool, in-process benchmark (docs/PERFORMANCE.md). Migration 001_create_business_profile.sql applied to shared appdb and webdb schema registry updated; migration smoke test rolled back (no persisted test data). Verified: 5/5 test suites pass (169 tests), node --check on all UI JS, benchmark counter-consistency PASS, Gitea push verified (main == c0821a2). Remaining unverified: no deployment has set DATABASE_URL yet, no live n8n/TLS/network or screen-reader/device testing, no SLA or multi-tenant.
