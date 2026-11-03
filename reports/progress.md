@@ -318,3 +318,7 @@ MCP web UI updated: Thai/English language selector across console/status/Admin, 
 ## 2026-11-03 22:22:26 +07
 
 ตั้งค่า HTTPS สำหรับ MCP_WEB_UI ด้วย Tailscale + Traefik บนเครื่อง server สำเร็จ: ออก TLS cert จาก Let's Encrypt ผ่าน Tailscale (หมดอายุ 2027-01-15) เก็บที่ /home/devg/MCP/certs/, สร้าง Traefik dynamic config ที่ /data/coolify/proxy/dynamic/mcp-tailscale.yaml ให้ route https://server.tailb9d429.ts.net ไปยัง container MCP_WEB_UI, อัปเดต env ใน Coolify (MCP_PUBLIC_URL, MCP_ALLOWED_HOSTS, MCP_ADDITIONAL_URLS, MCP_ALLOWED_ORIGINS) แล้ว redeploy สำเร็จ, ทดสอบยืนยัน: HTTPS healthz/api/status/homepage ได้ 200 OK, HTTP/2 + TLS 1.3, cert issuer Let's Encrypt CN=YE2, LAN HTTP endpoint ยังใช้งานได้, สร้างคู่มือต่ออายุ cert ที่ /home/devg/MCP/certs/CERT_RENEWAL.md และอัปเดต README.md
+
+## 2026-11-03 22:31:04 +07
+
+Updated docs/PRIVACY.md and docs/GDPR_ASSESSMENT.md to distinguish non-persistent MCP tool-call data from the optional webdb business profile, which requires DATABASE_URL; clarified that profile validation does not technically filter personal data. Read-only endpoint checks returned HTTP 200; public HTTPS negotiated HTTP/2 and TLS 1.3 with certificate verification OK; the LAN HTTP health endpoint also returned 200. No credentials or database values were read; active DATABASE_URL configuration and internal proxy routing were not independently verified.
