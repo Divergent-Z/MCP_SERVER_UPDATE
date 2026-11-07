@@ -326,3 +326,7 @@ Updated docs/PRIVACY.md and docs/GDPR_ASSESSMENT.md to distinguish non-persisten
 ## 2026-11-03 22:50:40 +07
 
 Updated PLAN.md, COOLIFY_DEPLOY.md, REMOTE_TESTING.md, CLIENT_SETUP.md, and docs/FEATURE_CHECKLIST.md to remove stale deployment-pending/HTTP-only claims, distinguish the MCP Traefik HTTPS route on port 443 from the separate webdb Funnel on port 8443, and correct backup/HTTP/DB checklist wording. Read-only endpoint checks returned 200; HTTPS negotiated HTTP/2 and TLS 1.3 with certificate verification OK (expires 2027-01-15); LAN HTTP health returned 200. git diff --check and document diagnostics passed. Authenticated client use, access denial from an unapproved network, and live DATABASE_URL configuration remain unverified; no secrets were read.
+
+## 2026-11-07 18:11:33 +07
+
+MCP acceptance check fixed for run_read_only_batch and tool contracts regenerated; all checks green (tests 5/5 suites, contracts PASS, acceptance 17/17); commit 04e36df pushed to Gitea main and verified matching remote
