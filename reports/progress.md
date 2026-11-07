@@ -338,3 +338,7 @@ MCP commit 04e36df deployed via Coolify start endpoint; deployed service healthy
 ## 2026-11-07 20:36:22 +07
 
 Customer validation simulation script and debug denial checks added; all suites pass (5/5, 171 tests); deployed MCP verified via remote client E2E (10 rounds ok); remaining: llama-via-MCP wiring, multi-provider, other-AI docs, real customer validation, external denial test
+
+## 2026-11-07 21:36:43 +07
+
+Microtronic MCP Suite: completed llama-via-MCP E2E (llama3.2 tool calls through deployed MCP server ok, quote_generator draft ok), added other-AI client docs and llama agent tests; all checks green (workspace tests 60 OK, contracts PASS, acceptance 17/17); commit 3f9d26e pushed to Gitea main; pending real-customer validation and external-source denial remain
