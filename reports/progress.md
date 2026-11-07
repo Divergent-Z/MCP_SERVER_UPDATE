@@ -330,3 +330,7 @@ Updated PLAN.md, COOLIFY_DEPLOY.md, REMOTE_TESTING.md, CLIENT_SETUP.md, and docs
 ## 2026-11-07 18:11:33 +07
 
 MCP acceptance check fixed for run_read_only_batch and tool contracts regenerated; all checks green (tests 5/5 suites, contracts PASS, acceptance 17/17); commit 04e36df pushed to Gitea main and verified matching remote
+
+## 2026-11-07 18:28:31 +07
+
+MCP commit 04e36df deployed via Coolify start endpoint; deployed service healthy and verified via remote client E2E (7 tools incl run_read_only_batch, tool call ok); code checks all green; remaining: external-from-LAN denial test and customer validation
