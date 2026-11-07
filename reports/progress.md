@@ -334,3 +334,7 @@ MCP acceptance check fixed for run_read_only_batch and tool contracts regenerate
 ## 2026-11-07 18:28:31 +07
 
 MCP commit 04e36df deployed via Coolify start endpoint; deployed service healthy and verified via remote client E2E (7 tools incl run_read_only_batch, tool call ok); code checks all green; remaining: external-from-LAN denial test and customer validation
+
+## 2026-11-07 20:36:22 +07
+
+Customer validation simulation script and debug denial checks added; all suites pass (5/5, 171 tests); deployed MCP verified via remote client E2E (10 rounds ok); remaining: llama-via-MCP wiring, multi-provider, other-AI docs, real customer validation, external denial test
