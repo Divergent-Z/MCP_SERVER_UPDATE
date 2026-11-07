@@ -350,3 +350,7 @@ Microtronic MCP Suite: added customer pilot handoff checklist docs/CUSTOMER_PILO
 ## 2026-11-07 22:24:51 +07
 
 Microtronic MCP Suite: added mobile access section to OTHER_AI_CLIENTS_MCP.md and pushed commit 2b1d3e1 to Gitea main; agent-side readiness and live E2E via Tailscale verified; human-side pilot pending
+
+## 2026-11-07 22:50:47 +07
+
+Microtronic MCP Suite: TLS private key remediation complete (new key+cert generated, key removed from repo/image via .gitignore/.dockerignore, commit e747854 pushed, redeployed, anonymous key now 404, service healthy, auth OK, docker outbound OK, mobile supported, llama E2E OK) — human-side pilot remains
