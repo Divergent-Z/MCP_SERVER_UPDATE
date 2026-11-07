@@ -354,3 +354,7 @@ Microtronic MCP Suite: added mobile access section to OTHER_AI_CLIENTS_MCP.md an
 ## 2026-11-07 22:50:47 +07
 
 Microtronic MCP Suite: TLS private key remediation complete (new key+cert generated, key removed from repo/image via .gitignore/.dockerignore, commit e747854 pushed, redeployed, anonymous key now 404, service healthy, auth OK, docker outbound OK, mobile supported, llama E2E OK) — human-side pilot remains
+
+## 2026-11-07 23:07:52 +07
+
+Microtronic MCP Suite: completed TLS key remediation end-to-end (new key+cert generated, excluded from repo/image, deployed, live TLS now verified to use rotated key; service healthy, auth OK, anon key 404) — human-side pilot remains
