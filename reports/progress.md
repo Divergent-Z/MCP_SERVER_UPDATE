@@ -342,3 +342,7 @@ Customer validation simulation script and debug denial checks added; all suites 
 ## 2026-11-07 21:36:43 +07
 
 Microtronic MCP Suite: completed llama-via-MCP E2E (llama3.2 tool calls through deployed MCP server ok, quote_generator draft ok), added other-AI client docs and llama agent tests; all checks green (workspace tests 60 OK, contracts PASS, acceptance 17/17); commit 3f9d26e pushed to Gitea main; pending real-customer validation and external-source denial remain
+
+## 2026-11-07 21:44:32 +07
+
+Microtronic MCP Suite: added customer pilot handoff checklist docs/CUSTOMER_PILOT_TEST.md and pushed commit c574933 to Gitea main; agent-side readiness for real-customer testing confirmed (deploy, acceptance 17/17, E2E via Flint+llama, draft-only verified); human-side pilot remains
